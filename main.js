@@ -105,6 +105,7 @@ function validation(){
        if(!(Roman1.checked||Essai2.checked||Bande3.checked)){
         h4.innerHTML ="Le Type: *[Required]";
         h4.style.color ="red"
+        valid = false ;
        }
        else{
         h4.innerHTML  = "Le Type *";
