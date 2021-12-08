@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+#myDiv {
+	background-color: #f2f2f2;
+	width: 500px;
+	margin: auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+	margin: 10px 0;
+	padding: 10px 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+input[type=submit], input[type=reset] {
+	background-color: #0093bf;
+	color: white;
+    width: 49%;
+    padding: 10px ;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #007a9e;
+}
+input[type=date] {
+    width: 100%;
+	margin: 10px 0;
+	padding: 10px 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+select[name=langue] {
+    width: 100%;
+	margin: 10px 0;
+	padding: 10px 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+h4{
+    font-weight: normal;
+}
+
+input[type=radio] {
+    
+	margin-left: 20px ;
+	padding: 10px 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}

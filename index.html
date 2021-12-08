@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="myDiv">
+      <h3 align="center">Form Validation Example</h3>
+      <form onsubmit="return validation()" method="get" name="regForm">
+            <label>Titre: *</label>
+            <input type="text" name="firstName" placeholder="Your First Name" size="25" />
+            <label>Auteur: *</label>
+            <input type="text" name="lastName" placeholder="Your Last Name" size="25" />
+            <label>prix: *</label>
+            <input type="text" name="prix" size="25" placeholder="Your prix" />
+            <label>Date De Publication:</label>
+            <input type="date" name="date" />
+            <label>La Langue </label>
+            <select id="langue" name="langue">
+                <option value="francais">Français</option>
+                <option value="anglais">anglais</option>
+                <option value="arabe">arabe</option>
+            </select><br>
+            <h4>Type</h4>
+               <input type="radio" id="Roman" name="Roman" value="Roman" class="radio">
+                <label for="Roman">Roman</label>
+                <input type="radio" id="Essai" name="Roman" value="Essai"class="radio" >
+                <label for="Essai">Essai</label>
+                <input type="radio" id="Bande-Dessinée" name="Roman" value="Bande-Dessinée" class="radio">
+                <label for="Bande-Dessinée">Bande-Dessinée</label>
+    
+            <div align="center">
+            <input type="submit" value="Register" />
+            <input type="reset" value="Clear" onclick="clear2();" />
+            <div>
+      </form>
+    </div>
+    
+</body>
+</html>
+
+<!--avaScript Array Map
