@@ -13,21 +13,22 @@
       <h3 align="center">Form Validation Example</h3>
       <form onsubmit="return validation()" method="get" name="regForm">
             <label>Titre: *</label>
-            <input type="text" name="firstName" placeholder="Your First Name" size="25" />
+            <input type="text" name="firstName" placeholder=" Titre" size="25" />
             <label>Auteur: *</label>
-            <input type="text" name="lastName" placeholder="Your Last Name" size="25" />
-            <label>prix: *</label>
-            <input type="text" name="prix" size="25" placeholder="Your prix" />
+            <input type="text" name="lastName" placeholder="Auteur" size="25" />
+            <label>Prix: *</label>
+            <input type="text" name="prix" size="25" placeholder=" prix" />
             <label>Date De Publication:</label>
             <input type="date" name="date" />
-            <label>La Langue </label>
+            <label id="label">La Langue: *</label>
             <select id="langue" name="langue">
+                <option id="select" disabled hidden selected value="">select</option>
                 <option value="francais">Français</option>
                 <option value="anglais">anglais</option>
                 <option value="arabe">arabe</option>
             </select><br>
-            <h4>Type</h4>
-               <input type="radio" id="Roman" name="Roman" value="Roman" class="radio">
+            <h4 id="h4">Le Type : *</h4>
+                <input type="radio" id="Roman" name="Roman" value="Roman" class="radio">
                 <label for="Roman">Roman</label>
                 <input type="radio" id="Essai" name="Roman" value="Essai"class="radio" >
                 <label for="Essai">Essai</label>
