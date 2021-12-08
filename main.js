@@ -43,6 +43,11 @@ function validation(){
         formLabels[1].style.color="red";
         valid = false;
     }
+    else if(lastName.length>=30){
+        formLabels[1].innerHTML = "Titre: * [Max 30]";
+        formLabels[1].style.color="red";
+        valid = false;
+    }
     else{
         formLabels[1].innerHTML = "Auteur: * ";
         formLabels[1].style.color="black";
