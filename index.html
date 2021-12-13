@@ -11,36 +11,49 @@
 <body>
     <div id="myDiv">
       <h3 align="center">Form Validation Example</h3>
-      <form onsubmit="return validation()" method="get" name="regForm">
+      <form onsubmit="return validation()"  name="regForm" method="dialog"width="60%">
             <label>Titre: *</label>
-            <input type="text" name="firstName" placeholder=" Titre" size="25" />
+            <input type="text" name="firstName" placeholder=" Titre" size="25"id="th1" />
             <label>Auteur: *</label>
-            <input type="text" name="lastName" placeholder="Auteur" size="25" />
+            <input type="text" name="lastName" placeholder="Auteur" size="25" id="th2"/>
             <label>Prix: *</label>
-            <input type="text" name="prix" size="25" placeholder=" prix" />
+            <input type="text" name="prix" size="25" placeholder=" prix"id="th3" />
             <label>Date De Publication:</label>
-            <input type="date" name="date" />
+            <input type="date" name="date" id="th4"/>
             <label id="label">La Langue: *</label>
-            <select id="langue" name="langue">
+            <select id="langue" name="langue"id="th5">
                 <option id="select" disabled hidden selected value="">select</option>
                 <option value="francais">Français</option>
                 <option value="anglais">anglais</option>
                 <option value="arabe">arabe</option>
             </select><br>
             <h4 id="h4">Le Type : *</h4>
-                <input type="radio" id="Roman" name="Roman" value="Roman" class="radio">
+                <input type="radio" id="Roman" name="Roman" data-value="" value="Roman" class="radio" id="th6">
                 <label for="Roman">Roman</label>
-                <input type="radio" id="Essai" name="Roman" value="Essai"class="radio" >
+                <input type="radio" id="Essai" name="Roman" value="Essai"class="radio" id="th6">
                 <label for="Essai">Essai</label>
-                <input type="radio" id="Bande-Dessinée" name="Roman" value="Bande-Dessinée" class="radio">
+                <input type="radio" id="Bande-Dessinée" name="Roman" value="Bande-Dessinée" class="radio" id="th6">
                 <label for="Bande-Dessinée">Bande-Dessinée</label>
     
             <div align="center">
-            <input type="submit" value="Register" />
-            <input type="reset" value="Clear" onclick="clear2();" />
-            <div>
+            <input type="submit" value="Register" class="input"id="submit"/>
+            <input type="reset" value="Clear" onclick="clear2();" id="submit"/>
+            </div>   
       </form>
     </div>
+    <div>
+    <table border="1"  id="table">
+            <tr>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Prix</th>
+                <th>Date de Publication</th>
+                <th>La Langue</th>
+                <th>Le Type</th>
+                <th>Controls</th>
+            </tr>
+    </table>
+</div>
     
 </body>
 </html>
