@@ -1,6 +1,15 @@
 * {
 	box-sizing: border-box;
 }
+.parentDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: red; */
+    width: 100%;
+}
 
 #myDiv {
 	background-color: #f2f2f262;
@@ -61,8 +70,6 @@ table{
     
     border-collapse: collapse;
     margin-left: 10px;
-    
-    
     
     
 }
